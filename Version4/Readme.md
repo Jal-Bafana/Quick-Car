@@ -58,3 +58,36 @@ javac -cp lib/flatlaf-3.2.jar src/RentaByteUI.java
 ```bash
 java -cp "lib/flatlaf-3.2.jar;src" RentaByteUI
 ```
+💡 On macOS/Linux, use : instead of ;
+
+## 💻 Sample Walkthrough
+
+- App launches with a prompt to enter your name.
+- You are greeted with a dashboard with three options:
+  - View Available Vehicles (Table View)
+  - Rent Selected Vehicle (Prompt for Days)
+  - Return Vehicle (Shows Rental Cost)
+
+**Example:**
+```bash
+Name: Jal Vehicle rented: Honda City (3 days) Returned: ₹150.0 charged.
+```
+All handled via GUI, no console input required.
+
+---
+
+## 🌱 Future Additions
+
+- Add database persistence (SQLite/MySQL)
+- Admin panel for managing cars
+- Login system with user profiles
+- Receipt generation (PDF)
+- Switchable themes and dark mode
+
+---
+
+## ✨ Author
+
+**Jal Bafana**  
+Second Year B.Tech CSE (Cyber Security)  
+[GitHub](https://github.com/Jal-Bafana)
